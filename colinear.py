@@ -23,7 +23,7 @@ class Solution:
         i = 0
         for triplet in itertools.combinations(pointlist, 3):
             if self.is_colinear(triplet):
-                print(triplet)
+                # print(triplet)
                 i = i + 1
         return i
 
